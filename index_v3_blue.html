@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codec SRL | Odoo y Factura Electrónica e-CF certificada DGII en República Dominicana</title>
+<meta name="description" content="Implementamos Odoo ERP y comprobantes fiscales electrónicos e-CF certificados por la DGII en República Dominicana. Planes PyME, Crecimiento y Corporativo. Odoo Silver Partner.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://www.codec.do/">
+<meta property="og:type" content="website"><meta property="og:locale" content="es_DO">
+<meta property="og:title" content="Codec SRL | Odoo y Factura Electrónica e-CF en RD">
+<meta property="og:description" content="ERP Odoo y facturación electrónica e-CF certificada por la DGII. Tu empresa operando en semanas.">
+<meta property="og:url" content="https://www.codec.do/">
+<meta property="og:image" content="https://www.codec.do/logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"CODEC S.R.L","legalName":"CODEC S.R.L","url":"https://www.codec.do/","email":"ventas@codec.do","telephone":"+18098397458","logo":"https://www.codec.do/web/image/website/1/logo/Codec?unique=53473af","areaServed":"DO","address":{"@type":"PostalAddress","addressLocality":"Santo Domingo","addressCountry":"DO"},"description":"Empresa de transformación digital especializada en soluciones empresariales Odoo.","sameAs":["https://www.linkedin.com/in/yasmanycastillo/"]}
+</script>
+<style>
+/* Tipografía cuerpo: Objektiv (trial). Cargar el archivo licenciado aquí; Inter es el respaldo mientras tanto.
+@font-face{font-family:"Objektiv";src:url("/web/static/fonts/Objektiv-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Objektiv";src:url("/web/static/fonts/Objektiv-Medium.woff2") format("woff2");font-weight:500;font-display:swap} */
+:root{--p:#1f4385;--p2:#077b96;--p-rgb:31,67,133;--bg:#fff;--bg2:#f0f6fa;--tx:#0f1f33;--mu:#51657a;--bd:#dbe6ee;--card:#fff;--sh:0 10px 30px rgba(15,45,90,.09)}
+:root[data-theme=dark]{--p:#3a86dc;--p2:#0a9bbd;--p-rgb:58,134,220;--bg:#08121c;--bg2:#0d1d2b;--tx:#e8f2f8;--mu:#92a8ba;--bd:#1b3347;--card:#0f2132;--sh:0 10px 30px rgba(0,0,0,.5)}
+html{overflow-x:hidden;overflow-x:clip;scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:"Objektiv","Inter",system-ui,sans-serif;background:var(--bg);color:var(--tx);transition:background .3s,color .3s;overflow-x:hidden;overflow-x:clip}
+main,section,footer{overflow-x:hidden;overflow-x:clip;max-width:100%}
+h1,h2,h3,h4,.display{font-family:"Sora",sans-serif;letter-spacing:-.02em;font-weight:700}
+.container-xxl{max-width:1400px}
+.text-mu{color:var(--mu)}.section{padding:6rem 0}.alt{background:var(--bg2)}
+.eyebrow{display:inline-block;color:var(--p);font-weight:600;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.75rem}
+.grad{background:linear-gradient(90deg,var(--p),var(--p2));-webkit-background-clip:text;background-clip:text;color:transparent}
+/* Header */
+.hd{position:fixed;inset:0 0 auto 0;z-index:1030;padding:1.1rem 0;transition:all .35s}
+.hd.scrolled{padding:.5rem 0;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(180%) blur(14px);box-shadow:0 8px 28px rgba(10,35,70,.10);border-bottom:1px solid var(--bd)}
+.brand{font:800 1.2rem/1 Sora,sans-serif;letter-spacing:.07em;color:var(--tx);white-space:nowrap}
+.hd img{height:64px;width:auto;transition:height .35s}.hd.scrolled img{height:52px}
+.nav-l{color:var(--tx);text-decoration:none;font-weight:500;font-size:.95rem;position:relative;padding:.3rem 0}
+.nav-l::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:0;background:var(--p);transition:width .3s}
+.nav-l:hover::after,.nav-l.active::after{width:100%}.nav-l:hover{color:var(--p)}
+.ic{width:34px;height:34px;border-radius:50%;display:inline-grid;place-items:center;color:var(--tx);border:1px solid var(--bd);transition:.25s;background:transparent;cursor:pointer}
+.ic:hover{background:var(--p);color:#fff;border-color:var(--p);transform:translateY(-2px)}
+.ic svg{width:16px;height:16px;fill:currentColor}
+.sw{width:52px;height:28px;border-radius:20px;border:1px solid var(--bd);background:var(--bg2);position:relative;cursor:pointer;padding:0}
+.sw::before{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:var(--p);transition:transform .3s}
+:root[data-theme=dark] .sw::before{transform:translateX(24px)}
+/* Botones */
+.btn-c{background:linear-gradient(135deg,var(--p),var(--p2));color:#fff;border:0;border-radius:50px;padding:.85rem 1.8rem;font-weight:600;box-shadow:0 10px 24px rgba(var(--p-rgb),.38);transition:.3s}
+.btn-c:hover{color:#fff;transform:translateY(-3px);box-shadow:0 16px 32px rgba(var(--p-rgb),.5)}
+.btn-o{border:1.5px solid var(--bd);color:var(--tx);border-radius:50px;padding:.85rem 1.8rem;font-weight:600;box-shadow:0 8px 20px rgba(10,35,70,.08);transition:.3s;background:var(--card)}
+.btn-o:hover{border-color:var(--p);color:var(--p);transform:translateY(-3px)}
+/* Slider */
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;padding-top:90px;overflow:hidden;background:radial-gradient(60% 60% at 80% 20%,rgba(var(--p-rgb),.16),transparent),var(--bg2)}
+.sl{position:relative;width:100%}.sl-track{display:flex;transition:transform .8s cubic-bezier(.65,.05,.2,1)}
+.slide{flex:0 0 100%;padding:1rem 0 3.5rem}
+.slide .tx>*,.slide .art{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}
+.slide.on .tx>*,.slide.on .art{opacity:1;transform:none}
+.slide.on .tx>*:nth-child(2){transition-delay:.12s}.slide.on .tx>*:nth-child(3){transition-delay:.24s}.slide.on .tx>*:nth-child(4){transition-delay:.36s}.slide.on .art{transition-delay:.2s}
+.slide .display{font-size:clamp(2.1rem,4.6vw,3.9rem);line-height:1.08}
+.art svg{width:100%;max-height:460px;overflow:visible}
+.sl-ctl{position:absolute;left:0;right:0;bottom:0;display:flex;align-items:center;gap:.6rem}
+.dot{width:10px;height:10px;border-radius:10px;border:0;background:var(--bd);transition:.35s;padding:0}.dot.on{width:34px;background:var(--p)}
+.ar{margin-left:auto}
+/* SVG helpers */
+.s-p{fill:var(--p)}.s-card{fill:var(--card);stroke:var(--bd)}.s-line{stroke:var(--p);fill:none;stroke-width:2}.s-mu{fill:var(--bd)}.s-tx{fill:var(--tx);font:700 13px Sora,sans-serif}
+.dash{stroke-dasharray:6 8;animation:dash 1.6s linear infinite}@keyframes dash{to{stroke-dashoffset:-28}}
+.flt{animation:flt 5s ease-in-out infinite}.flt2{animation:flt 6s ease-in-out -2s infinite}@keyframes flt{50%{transform:translateY(-12px)}}
+.pulse{animation:pls 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}@keyframes pls{0%{opacity:.5;transform:scale(.6)}100%{opacity:0;transform:scale(1.6)}}
+.bar{transform-box:fill-box;transform-origin:bottom;animation:grow 3.5s ease-in-out infinite alternate}@keyframes grow{from{transform:scaleY(.55)}}
+.blink{animation:bl 1s steps(2) infinite}@keyframes bl{50%{opacity:0}}
+/* Cards / reveal */
+.rv{opacity:0;transform:translateY(40px);transition:opacity .8s ease,transform .8s ease;transition-delay:var(--d,0s)}
+.rv.l{transform:translateX(-50px)}.rv.r{transform:translateX(50px)}.rv.in{opacity:1;transform:none}
+.cd{background:var(--card);border:1px solid var(--bd);border-radius:20px;padding:2rem;height:100%;transition:transform .35s,box-shadow .35s,border-color .35s}
+.cd:hover{transform:translateY(-8px);box-shadow:var(--sh);border-color:rgba(var(--p-rgb),.5)}
+.cd .bx{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;background:rgba(var(--p-rgb),.12);color:var(--p);margin-bottom:1.2rem}
+.cd .bx svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.stat{font:800 clamp(2rem,4vw,3rem)/1 Sora,sans-serif}
+.step{counter-increment:s;position:relative;padding-left:4rem}
+.step::before{content:counter(s,decimal-leading-zero);position:absolute;left:0;top:0;font:800 1.6rem Sora;color:var(--p)}
+.ct input,.ct textarea{background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:14px;padding:.85rem 1rem}
+.ct input:focus,.ct textarea:focus{background:var(--card);color:var(--tx);border-color:var(--p);box-shadow:0 0 0 .25rem rgba(var(--p-rgb),.18)}
+.chip{display:inline-block;padding:.45rem 1rem;border-radius:50px;border:1px solid var(--bd);background:var(--card);margin:.25rem .25rem .25rem 0;font-size:.9rem;font-weight:500}
+.btn-wa{background:#25d366;color:#fff;border:0;border-radius:50px;padding:.85rem 1.8rem;font-weight:600;box-shadow:0 10px 24px rgba(37,211,102,.42);transition:.3s}.btn-wa:hover{color:#fff;transform:translateY(-3px);box-shadow:0 16px 32px rgba(37,211,102,.55)}
+.pl .price{font:800 clamp(1.9rem,3vw,2.5rem)/1.1 Sora,sans-serif;margin:.4rem 0}.pl ul{list-style:none;padding:0;margin:0 0 1rem}.pl li{position:relative;padding-left:1.7rem;margin:.55rem 0;font-size:.95rem}.pl li::before{content:"✓";position:absolute;left:0;color:#22c55e;font-weight:700}
+.pl.f{border-color:var(--p);box-shadow:0 22px 50px rgba(var(--p-rgb),.25)}
+.cta{background:linear-gradient(135deg,#0b1f3f,#075a72);color:#fff;border-radius:28px;padding:3rem;box-shadow:var(--sh)}
+.wv{background:var(--bg);line-height:0}.wv svg{display:block;width:100%;height:clamp(40px,6vw,90px)}.wv path{fill:var(--bg2)}
+/* Footer */
+.ft{background:linear-gradient(135deg,#16336b,#055f75);background:radial-gradient(60% 90% at 90% 0%,rgba(255,255,255,.12),transparent),linear-gradient(135deg,color-mix(in srgb,var(--p) 76%,#000),color-mix(in srgb,var(--p2) 66%,#000));color:#fff;padding:4rem 0 1.5rem}
+.ft a{color:rgba(255,255,255,.85);text-decoration:none}.ft a:hover{color:#fff}
+.ft .ic{color:#fff;border-color:rgba(255,255,255,.4)}.ft .ic:hover{background:#fff;color:var(--p);border-color:#fff}
+.ft img{height:56px;width:auto;display:block}
+/* WhatsApp */
+.wa{position:fixed;right:22px;bottom:22px;z-index:1040;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 10px 26px rgba(37,211,102,.5);transition:transform .3s}
+.wa:hover{transform:scale(1.1)}.wa svg{width:32px;height:32px;fill:#fff}
+.wa::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:ring 2s infinite}@keyframes ring{to{transform:scale(1.6);opacity:0}}
+@media(max-width:767px){.rv.l:not(.in),.rv.r:not(.in){transform:translateY(40px)}}
+@media(max-width:420px){.brand{font-size:.95rem}.hd img{height:52px}}
+@media(max-width:991px){.section{padding:4rem 0}.hero{min-height:auto;padding-bottom:2rem}.nav-menu{background:var(--bg);padding:1rem;border-radius:16px;margin-top:.75rem;border:1px solid var(--bd)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv,.slide .tx>*,.slide .art{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="hd" id="hd">
+ <div class="container-xxl px-3 px-lg-4">
+  <nav class="d-flex align-items-center justify-content-between" aria-label="Principal">
+   <a href="#inicio" class="d-flex align-items-center gap-2 text-decoration-none" aria-label="CODEC S.R.L, inicio"><img src="logo.png" alt="Codec SRL" width="66" height="64"><span class="brand">CODEC <span class="grad">S.R.L</span></span></a>
+   <div class="d-none d-lg-flex gap-4">
+    <a class="nav-l" href="#inicio">Inicio</a><a class="nav-l" href="#nosotros">Nosotros</a><a class="nav-l" href="#servicios">Servicios</a><a class="nav-l" href="#proceso">Proceso</a><a class="nav-l" href="#planes">Planes</a><a class="nav-l" href="#contacto">Contacto</a>
+   </div>
+   <div class="d-flex align-items-center gap-2">
+    <span class="d-none d-md-flex gap-2 me-2">
+     <a class="ic" href="https://www.linkedin.com/in/yasmanycastillo/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.84-2 3.8-2 4.06 0 4.8 2.67 4.8 6.14V21h-4v-5.03c0-1.2-.02-2.74-1.67-2.74-1.67 0-1.93 1.3-1.93 2.65V21h-4z"/></svg></a>
+     <a class="ic" href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.8c0-.9.3-1.5 1.6-1.5h1.7V3.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.4H7.6V13h2.8v8z"/></svg></a>
+     <a class="ic" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+    </span>
+    <button class="sw" id="theme" role="switch" aria-checked="false" aria-label="Cambiar entre modo claro y oscuro"></button>
+    <a class="btn btn-c d-none d-xl-inline-block ms-2 py-2 px-4" href="#contacto">Agendar cita</a>
+    <button class="ic d-lg-none" id="burger" aria-label="Abrir menú" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg></button>
+   </div>
+  </nav>
+  <div class="nav-menu d-none flex-column gap-3" id="menu">
+   <a class="nav-l" href="#inicio">Inicio</a><a class="nav-l" href="#nosotros">Nosotros</a><a class="nav-l" href="#servicios">Servicios</a><a class="nav-l" href="#proceso">Proceso</a><a class="nav-l" href="#planes">Planes</a><a class="nav-l" href="#contacto">Contacto</a>
+  <a class="btn btn-c align-self-start" href="#contacto">Agendar cita</a></div>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="inicio" aria-label="Destacados">
+ <div class="container-xxl px-3 px-lg-4">
+  <div class="sl" id="sl" aria-roledescription="carrusel">
+   <div class="sl-track" id="track">
+    <div class="slide on"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Certificado DGII · Producción 24/7</span>
+      <h1 class="display mb-3">ERP y <span class="grad">Factura Electrónica</span> listos para producción</h1>
+      <p class="fs-5 text-mu mb-4">Implementamos Odoo y comprobantes fiscales electrónicos e-CF certificados por la DGII. Tu empresa operando en semanas, no en meses.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="https://wa.me/18098397458?text=Hola%20Codec%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener" class="btn btn-wa">Hablemos</a><a href="#planes" class="btn btn-o">Ver planes</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de módulos Odoo conectados entre sí">
+      <g class="s-line dash"><path d="M260 210 130 90M260 210 400 80M260 210 90 270M260 210 430 290M260 210 260 360"/></g>
+      <circle class="s-p pulse" cx="260" cy="210" r="60"/><circle class="s-p" cx="260" cy="210" r="46"/><text x="260" y="216" text-anchor="middle" fill="#fff" font-family="Sora" font-weight="800" font-size="20">odoo</text>
+      <g class="flt"><rect class="s-card" x="85" y="60" width="90" height="60" rx="16"/><rect class="s-p" x="100" y="75" width="22" height="6" rx="3"/><rect class="s-mu" x="100" y="90" width="58" height="6" rx="3"/><text class="s-tx" x="100" y="112" font-size="11">CRM</text></g>
+      <g class="flt2"><rect class="s-card" x="355" y="50" width="90" height="60" rx="16"/><rect class="s-p" x="370" y="65" width="22" height="6" rx="3"/><rect class="s-mu" x="370" y="80" width="58" height="6" rx="3"/><text class="s-tx" x="370" y="102" font-size="11">Ventas</text></g>
+      <g class="flt2"><rect class="s-card" x="45" y="245" width="90" height="60" rx="16"/><rect class="s-p" x="60" y="260" width="22" height="6" rx="3"/><rect class="s-mu" x="60" y="275" width="58" height="6" rx="3"/><text class="s-tx" x="60" y="297" font-size="11">Contabilidad</text></g>
+      <g class="flt"><rect class="s-card" x="385" y="265" width="90" height="60" rx="16"/><rect class="s-p" x="400" y="280" width="22" height="6" rx="3"/><rect class="s-mu" x="400" y="295" width="58" height="6" rx="3"/><text class="s-tx" x="400" y="317" font-size="11">Inventario</text></g>
+      <g class="flt"><rect class="s-card" x="215" y="340" width="90" height="60" rx="16"/><rect class="s-p" x="230" y="355" width="22" height="6" rx="3"/><rect class="s-mu" x="230" y="370" width="58" height="6" rx="3"/><text class="s-tx" x="230" y="392" font-size="11">eCommerce</text></g></svg></div>
+    </div></div>
+
+    <div class="slide"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Comprobantes fiscales e-CF</span>
+      <h2 class="display mb-3">Factura electrónica <span class="grad">certificada por la DGII</span></h2>
+      <p class="fs-5 text-mu mb-4">Emite e-CF desde Odoo, integrado a contabilidad, ventas e inventario, con reportes DGII listos.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="#planes" class="btn btn-c">Ver planes</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de comprobante fiscal electrónico validado por la DGII">
+      <g class="flt2"><rect class="s-card" x="120" y="30" width="270" height="340" rx="22"/><rect class="s-p" x="145" y="55" width="70" height="26" rx="13"/><text x="162" y="73" fill="#fff" font-family="Sora" font-weight="700" font-size="13">e-CF</text>
+      <rect class="s-mu" x="145" y="105" width="150" height="9" rx="4"/><rect class="s-mu" x="145" y="128" width="110" height="9" rx="4"/>
+      <path d="M145 165h220M145 215h220M145 265h220" stroke="var(--bd)"/><rect class="s-p" x="145" y="180" width="90" height="9" rx="4" opacity=".6"/><rect class="s-mu" x="300" y="180" width="65" height="9" rx="4"/><rect class="s-p" x="145" y="230" width="120" height="9" rx="4" opacity=".6"/><rect class="s-mu" x="300" y="230" width="65" height="9" rx="4"/>
+      <g class="s-p"><rect x="145" y="290" width="14" height="14"/><rect x="163" y="290" width="14" height="14" opacity=".4"/><rect x="145" y="308" width="14" height="14" opacity=".4"/><rect x="163" y="308" width="14" height="14"/><rect x="181" y="299" width="14" height="14" opacity=".6"/></g>
+      <text class="s-tx" x="300" y="318" font-size="16">Total</text></g>
+      <g class="flt"><circle cx="400" cy="320" r="52" fill="#22c55e"/><circle class="pulse" cx="400" cy="320" r="52" fill="#22c55e"/><path d="m377 320 16 16 31-34" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <g class="flt2"><rect class="s-card" x="40" y="250" width="110" height="44" rx="22"/><text class="s-tx" x="62" y="277" font-size="12">DGII ✓</text></g>
+      <path class="s-line dash" d="M390 150C450 170 460 230 430 262"/></svg></div>
+    </div></div>
+
+    <div class="slide"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Desarrollo web y a medida</span>
+      <h2 class="display mb-3">Sitios y módulos <span class="grad">construidos a tu medida</span></h2>
+      <p class="fs-5 text-mu mb-4">Desde diseño web hasta módulos personalizados e integraciones, con código limpio y listo para escalar.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="#servicios" class="btn btn-c">Conocer más</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de ventana de navegador con código">
+      <g class="flt2"><rect class="s-card" x="40" y="40" width="440" height="300" rx="20"/><path d="M40 90h440" stroke="var(--bd)"/>
+      <circle cx="68" cy="65" r="6" fill="#ff5f57"/><circle cx="90" cy="65" r="6" fill="#febc2e"/><circle cx="112" cy="65" r="6" fill="#28c840"/>
+      <rect class="s-p" x="70" y="115" width="90" height="10" rx="5"/><rect class="s-mu" x="170" y="115" width="140" height="10" rx="5"/>
+      <rect class="s-mu" x="90" y="145" width="180" height="10" rx="5"/><rect class="s-p" x="280" y="145" width="70" height="10" rx="5" opacity=".6"/>
+      <rect class="s-mu" x="90" y="175" width="120" height="10" rx="5"/><rect class="s-p" x="220" y="175" width="110" height="10" rx="5"/>
+      <rect class="s-mu" x="70" y="205" width="200" height="10" rx="5"/><rect class="s-p" x="70" y="235" width="60" height="10" rx="5" opacity=".6"/><rect class="s-mu" x="140" y="235" width="160" height="10" rx="5"/>
+      <rect class="s-p blink" x="70" y="265" width="10" height="16" rx="2"/></g>
+      <g class="flt"><rect class="s-p" x="360" y="230" width="130" height="130" rx="24"/><path d="M405 270l-22 25 22 25M445 270l22 25-22 25M431 262l-12 66" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <circle class="s-p pulse" cx="60" cy="375" r="14"/></svg></div>
+    </div></div>
+
+    <div class="slide"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Consultoría y eficiencia</span>
+      <h2 class="display mb-3">Crecimiento sostenible <span class="grad">medido en resultados</span></h2>
+      <p class="fs-5 text-mu mb-4">Combinamos conocimiento profundo de Odoo con experiencia en gestión empresarial para impulsar tu competitividad.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="#proceso" class="btn btn-c">Cómo trabajamos</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de gráfico de crecimiento">
+      <rect class="s-card" x="30" y="40" width="460" height="320" rx="24"/>
+      <g class="s-p"><rect class="bar" x="80" y="230" width="46" height="100" rx="10" opacity=".35"/><rect class="bar" x="150" y="190" width="46" height="140" rx="10" opacity=".5" style="animation-delay:-.6s"/><rect class="bar" x="220" y="160" width="46" height="170" rx="10" opacity=".7" style="animation-delay:-1.2s"/><rect class="bar" x="290" y="120" width="46" height="210" rx="10" style="animation-delay:-1.8s"/></g>
+      <path class="s-line dash" d="M90 210 175 170 245 140 315 90 420 70" stroke-width="3"/><circle class="s-p" cx="420" cy="70" r="9"/><circle class="s-p pulse" cx="420" cy="70" r="16"/>
+      <g class="flt"><rect class="s-card" x="365" y="250" width="130" height="80" rx="18"/><text class="s-tx" x="385" y="285" font-size="22">+38%</text><text x="385" y="310" fill="var(--mu)" font-size="12" font-family="Inter">Eficiencia</text></g></svg></div>
+    </div></div>
+   </div>
+   <div class="sl-ctl"><div class="d-flex gap-2" id="dots" role="tablist" aria-label="Diapositivas"></div>
+    <div class="ar d-flex gap-2"><button class="ic" id="prev" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg></button><button class="ic" id="next" aria-label="Siguiente"><svg viewBox="0 0 24 24"><path d="M8.6 18.6 10 20l8-8-8-8-1.4 1.4 6.6 6.6z"/></svg></button></div></div>
+  </div>
+ </div>
+</section>
+
+<div class="wv" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 0H1440V30C1200 90 960 90 720 55S240 -10 0 40z"/></svg></div>
+
+<section class="section" id="sistema"><div class="container-xxl px-3 px-lg-4"><div class="row gy-5 gx-lg-5 align-items-center">
+ <div class="col-lg-6 rv l"><svg viewBox="0 0 460 400" class="w-100" style="max-height:420px" role="img" aria-label="Ilustración de un teléfono con módulos integrados de Odoo">
+  <path d="M60 120C40 40 200 10 300 50s140 80 100 170-80 150-190 140S80 200 60 120z" fill="var(--p)" opacity=".1"/>
+  <g class="flt2"><rect x="165" y="40" width="140" height="300" rx="28" class="s-p"/><rect x="177" y="56" width="116" height="268" rx="18" class="s-card"/><circle cx="235" cy="190" r="38" fill="#22c55e"/><path d="m217 190 14 14 25-28" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle class="pulse" cx="235" cy="190" r="38" fill="#22c55e"/><rect class="s-mu" x="205" y="250" width="60" height="8" rx="4"/><rect class="s-mu" x="215" y="270" width="40" height="8" rx="4"/></g>
+  <g class="flt"><rect class="s-card" x="40" y="90" width="110" height="40" rx="20"/><text class="s-tx" x="68" y="115" font-size="12">Ventas</text></g>
+  <g class="flt2"><rect class="s-card" x="320" y="120" width="110" height="40" rx="20"/><text class="s-tx" x="345" y="145" font-size="12">Compras</text></g>
+  <g class="flt"><rect class="s-card" x="30" y="250" width="120" height="40" rx="20"/><text class="s-tx" x="52" y="275" font-size="12">Inventario</text></g>
+  <g class="flt2"><rect class="s-card" x="320" y="260" width="100" height="40" rx="20"/><text class="s-tx" x="345" y="285" font-size="12">Nómina</text></g></svg></div>
+ <div class="col-lg-6 rv r"><span class="eyebrow">Plataforma integrada</span><h2 class="display fs-1 mb-3">Un solo sistema para toda tu operación</h2>
+  <p class="text-mu">Contabilidad, inventario, ventas, compras, nómina y facturación electrónica integrados en Odoo. Elimina las hojas de cálculo y los procesos manuales.</p>
+  <p class="text-mu">Odoo reúne CRM, eCommerce, punto de venta y proyectos en una suite de código abierto, fácil de usar y totalmente integrada.</p>
+  <div class="mt-3"><span class="chip">CRM y Ventas</span><span class="chip">Contabilidad</span><span class="chip">Inventario</span><span class="chip">Compras</span><span class="chip">Nómina</span><span class="chip">Punto de Venta</span><span class="chip">eCommerce</span><span class="chip">Proyectos</span><span class="chip">Facturación e-CF</span></div></div>
+</div></div></section>
+
+<section class="section alt" id="nosotros"><div class="container-xxl px-3 px-lg-4"><div class="row gy-5 gx-lg-5 align-items-center">
+ <div class="col-lg-6 rv l"><span class="eyebrow">Quiénes somos</span>
+  <h2 class="display fs-1 mb-3">Nos preocupamos por los resultados</h2>
+  <p class="text-mu">Guiados por la experiencia adquirida durante más de 10 años logrando el éxito para nuestros clientes, realizamos nuestro trabajo con pasión y enfoque estratégico.</p>
+  <p class="text-mu">Codec es una empresa especializada en transformación digital, con un enfoque principal en soluciones empresariales Odoo. Somos parte de la comunidad de desarrolladores e implementadores de Odoo desde sus primeras versiones, y combinamos ese conocimiento con experiencia en gestión empresarial para impulsar la innovación y competitividad de nuestros clientes.</p>
+  <a href="#planes" class="btn btn-c mt-2">Descubre más</a></div>
+ <div class="col-lg-6 rv r"><div class="row g-3 text-center">
+  <div class="col-6"><div class="cd"><div class="stat grad">Silver</div><p class="mb-0 text-mu mt-2">Odoo Partner</p></div></div>
+  <div class="col-6"><div class="cd"><div class="stat grad">+10</div><p class="mb-0 text-mu mt-2">Años de experiencia</p></div></div>
+  <div class="col-6"><div class="cd"><div class="stat grad">DGII</div><p class="mb-0 text-mu mt-2">Certificado e-CF</p></div></div>
+  <div class="col-6"><div class="cd"><div class="stat grad">24/7</div><p class="mb-0 text-mu mt-2">Producción</p></div></div>
+ </div></div></div></div></section>
+
+<section class="section" id="servicios"><div class="container-xxl px-3 px-lg-4">
+ <div class="text-center mx-auto mb-5 rv" style="max-width:680px"><span class="eyebrow">Servicios y consultoría</span><h2 class="display fs-1">Soluciones digitales integrales</h2><p class="text-mu">Desde facturación electrónica y Odoo hasta diseño web y consultoría tecnológica, ayudamos a empresas y emprendedores a alcanzar sus objetivos.</p></div>
+ <div class="row g-4">
+  <div class="col-md-6 col-xl-3 rv"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="m9 14 2 2 4-4"/></svg></div><h3 class="h5">Comprobantes fiscales e-CF</h3><p class="text-mu mb-0">Facturación electrónica certificada por la DGII, integrada a tus ventas, inventario y contabilidad.</p></article></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.1s"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg></div><h3 class="h5">Implementación Odoo</h3><p class="text-mu mb-0">Despliegue de CRM, ventas, compras, inventario, POS, nómina y proyectos según tu operación.</p></article></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.2s"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M8 15h2M12 15h2"/></svg></div><h3 class="h5">Contabilidad y reportes DGII</h3><p class="text-mu mb-0">Contabilidad y ventas locales con los reportes fiscales que exige la normativa dominicana.</p></article></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.3s"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><path d="m8 8-5 4 5 4M16 8l5 4-5 4M14 5l-4 14"/></svg></div><h3 class="h5">Desarrollo a medida</h3><p class="text-mu mb-0">Módulos, reportes e integraciones por API que adaptan Odoo a procesos únicos de tu negocio.</p></article></div>
+  <div class="col-md-6 col-xl-3 rv"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div><h3 class="h5">Diseño y desarrollo web</h3><p class="text-mu mb-0">Sitios rápidos, responsive y optimizados para SEO, integrados con eCommerce y tu ERP.</p></article></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.1s"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><path d="M7 18a4 4 0 0 1-.5-8A6 6 0 0 1 18 8.5 4.5 4.5 0 0 1 17.5 18z"/></svg></div><h3 class="h5">Hosting Odoo.sh y nube</h3><p class="text-mu mb-0">Entornos de desarrollo, pruebas y producción con despliegue continuo y respaldos.</p></article></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.2s"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></svg></div><h3 class="h5">Seguridad y soporte</h3><p class="text-mu mb-0">Buenas prácticas de seguridad, mantenimiento, actualizaciones y soporte post-venta.</p></article></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.3s"><article class="cd"><div class="bx"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg></div><h3 class="h5">Consultoría tecnológica</h3><p class="text-mu mb-0">Diagnóstico y hoja de ruta para digitalizar procesos y mejorar la eficiencia operativa.</p></article></div>
+ </div></div></section>
+
+<section class="section alt" id="proceso"><div class="container-xxl px-3 px-lg-4">
+ <div class="text-center mx-auto mb-5 rv" style="max-width:640px"><span class="eyebrow">Cómo trabajamos</span><h2 class="display fs-1">De diagnóstico a producción</h2><p class="text-mu">Nuestro método de implementación en cuatro fases.</p></div>
+ <div class="row gy-5 gx-lg-5" style="counter-reset:s">
+  <div class="col-md-6 col-xl-3 rv"><div class="step"><h3 class="h5">Diagnóstico</h3><p class="text-mu">Entendemos tu operación, objetivos y retos.</p></div></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.1s"><div class="step"><h3 class="h5">Implementación</h3><p class="text-mu">Configuramos, desarrollamos y migramos tus datos.</p></div></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.2s"><div class="step"><h3 class="h5">Capacitación</h3><p class="text-mu">Formamos a tu equipo para sacar el máximo provecho.</p></div></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.3s"><div class="step"><h3 class="h5">Go-live</h3><p class="text-mu">Salida a producción con acompañamiento y soporte.</p></div></div>
+ </div></div></section>
+
+<section class="section" id="planes"><div class="container-xxl px-3 px-lg-4">
+ <div class="text-center mx-auto mb-5 rv" style="max-width:680px"><span class="eyebrow">Precios</span><h2 class="display fs-1">Planes a tu medida</h2><p class="text-mu">Soluciones de ERP Odoo y Facturación Electrónica e-CF con alcance claro y sin costos ocultos.</p></div>
+ <div class="row g-4">
+  <div class="col-lg-4 rv"><article class="cd pl d-flex flex-column"><h3 class="h5">Plan PyME</h3><div class="price grad">Desde $1,200</div><p class="small text-mu">pago único</p>
+   <p>La solución ideal para empresas en crecimiento que necesitan emitir facturas electrónicas y gestionar su contabilidad.</p>
+   <a href="https://wa.me/18098397458?text=Hola%2C%20me%20interesa%20el%20Plan%20PyME" target="_blank" rel="noopener" class="btn btn-o mb-3">Empezar PyME</a>
+   <ul><li>Contabilidad y Ventas locales</li><li>Facturación Electrónica e-CF</li><li>Reportes DGII</li><li>Capacitación básica incluida</li></ul>
+   <p class="small text-mu mt-auto pt-3 mb-0 border-top">Configuración instantánea. Te devolvemos tu dinero si no quedas satisfecho.</p></article></div>
+  <div class="col-lg-4 rv" style="--d:.1s"><article class="cd pl f d-flex flex-column"><h3 class="h5">Plan Crecimiento</h3><div class="price grad">Desde $2,500</div><p class="small text-mu">pago único</p>
+   <p>Control total de inventario, compras, nómina y multi-sucursal con reportes fiscales consolidados.</p>
+   <a href="#contacto" class="btn btn-c mb-3">Solicitar Demo</a>
+   <ul><li>Todo lo del Plan PyME</li><li>Gestión de Inventario y Compras</li><li>Nómina</li><li>Multi-sucursal y almacenes</li><li>Soporte post-venta prioritario</li></ul>
+   <p class="small text-mu mt-auto pt-3 mb-0 border-top">Configuración instantánea. Te devolvemos tu dinero si no quedas satisfecho.</p></article></div>
+  <div class="col-lg-4 rv" style="--d:.2s"><article class="cd pl d-flex flex-column"><h3 class="h5">Plan Corporativo</h3><div class="price grad">Cotización</div><p class="small text-mu">a medida</p>
+   <p>Para empresas que requieren integraciones avanzadas de API, multi-moneda, manufactura compleja o hosting dedicado.</p>
+   <a href="#contacto" class="btn btn-o mb-3">Contactar Ventas</a>
+   <ul><li>Multi-compañía y multi-moneda</li><li>Manufactura MRP e integraciones</li><li>Conector API REST personalizado</li><li>Hosting de alto rendimiento</li><li>Gerente de cuenta y SLA del 99.9%</li></ul>
+   <p class="small text-mu mt-auto pt-3 mb-0 border-top">Configuración instantánea. Te devolvemos tu dinero si no quedas satisfecho.</p></article></div>
+ </div></div></section>
+
+<section class="pb-5"><div class="container-xxl px-3 px-lg-4"><div class="cta rv d-flex flex-wrap align-items-center justify-content-between gap-4">
+ <div><h2 class="display fs-2 mb-2">Lleva la gestión de tu empresa al siguiente nivel</h2><p class="mb-0" style="opacity:.8">Implementa Odoo ERP y Facturación Electrónica e-CF certificada por la DGII.</p></div>
+ <a class="btn btn-wa" href="https://wa.me/18098397458?text=Hola%20Codec%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener">Escribir por WhatsApp</a></div></div></section>
+
+<section class="section alt" id="contacto"><div class="container-xxl px-3 px-lg-4"><div class="row gy-5 gx-lg-5 align-items-center">
+ <div class="col-lg-5 rv l"><span class="eyebrow">Contacto</span><h2 class="display fs-1 mb-3">¿Listo para digitalizar tu empresa?</h2>
+  <p class="text-mu">Cuéntanos tu proyecto y agenda tu cita; te responderemos con una propuesta.</p>
+  <p class="mb-1"><strong>Correo:</strong> <a href="mailto:ventas@codec.do" class="text-decoration-none" style="color:var(--p)">ventas@codec.do</a></p>
+  <p class="mb-1"><strong>Teléfono / WhatsApp:</strong> <a href="tel:+18098397458" class="text-decoration-none" style="color:var(--p)">+1 809 839 7458</a></p>
+  <p><strong>Ubicación:</strong> Santo Domingo, República Dominicana</p></div>
+ <div class="col-lg-7 rv r"><form class="ct cd" action="mailto:ventas@codec.do" method="post" enctype="text/plain">
+  <div class="row g-3"><div class="col-md-6"><label for="n" class="form-label">Nombre</label><input id="n" name="nombre" class="form-control" required></div>
+  <div class="col-md-6"><label for="e" class="form-label">Correo</label><input id="e" type="email" name="correo" class="form-control" required></div>
+  <div class="col-12"><label for="m" class="form-label">Mensaje</label><textarea id="m" name="mensaje" rows="4" class="form-control" required></textarea></div>
+  <div class="col-12"><button class="btn btn-c" type="submit">Enviar mensaje</button> <a class="btn btn-o ms-sm-2 mt-2 mt-sm-0" href="https://www.codec.do/appointment/1">Agendar cita</a></div></div></form></div>
+ </div></div></section>
+</main>
+
+
+<footer class="ft"><div class="container-xxl px-3 px-lg-4">
+ <div class="row g-4 pb-4">
+  <div class="col-lg-5"><div class="d-flex align-items-center gap-3"><span class="d-inline-grid p-2 rounded-4" style="background:#fff"><img src="logo.png" alt="Codec SRL" width="58" height="56"></span><span class="brand text-white">CODEC S.R.L</span></div><p class="mt-3 pe-lg-5" style="color:rgba(255,255,255,.85)">Transformación digital y soluciones empresariales Odoo en República Dominicana.</p></div>
+  <div class="col-6 col-lg-3"><h2 class="h6 mb-3">Navegación</h2><ul class="list-unstyled d-grid gap-2 mb-0"><li><a href="#inicio">Inicio</a></li><li><a href="#nosotros">Nosotros</a></li><li><a href="#servicios">Servicios</a></li><li><a href="#proceso">Proceso</a></li><li><a href="#planes">Planes</a></li><li><a href="#contacto">Contacto</a></li><li><a href="https://www.codec.do/appointment/1">Cita</a></li></ul></div>
+  <div class="col-6 col-lg-4"><h2 class="h6 mb-3">Contacto</h2><p class="small mb-1">Santo Domingo, República Dominicana</p><p class="small mb-1"><a href="mailto:ventas@codec.do">ventas@codec.do</a></p><p class="small mb-3"><a href="tel:+18098397458">+1 809 839 7458</a></p><h2 class="h6 mb-3">Síguenos</h2><div class="d-flex gap-2">
+   <a class="ic" href="https://www.linkedin.com/in/yasmanycastillo/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.84-2 3.8-2 4.06 0 4.8 2.67 4.8 6.14V21h-4v-5.03c0-1.2-.02-2.74-1.67-2.74-1.67 0-1.93 1.3-1.93 2.65V21h-4z"/></svg></a>
+   <a class="ic" href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.8c0-.9.3-1.5 1.6-1.5h1.7V3.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.4H7.6V13h2.8v8z"/></svg></a>
+   <a class="ic" href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></a></div></div>
+ </div>
+ <hr style="border-color:rgba(255,255,255,.25)"><p class="mb-0 small text-center" style="color:rgba(255,255,255,.8)">© <span id="yr">2026</span> CODEC S.R.L. Todos los derechos reservados.</p>
+</div></footer>
+
+<a class="wa" href="https://wa.me/18098397458?text=Hola%20Codec%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.8-.1 1.4z"/></svg></a>
+
+<script>
+(function(){
+ var d=document,r=d.documentElement,$=function(i){return d.getElementById(i)};
+ /* Tema */
+ var t;try{t=localStorage.getItem('codec-theme')}catch(e){}
+ if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+ function setT(v){r.setAttribute('data-theme',v);r.setAttribute('data-bs-theme',v);$('theme').setAttribute('aria-checked',v==='dark');try{localStorage.setItem('codec-theme',v)}catch(e){}}
+ setT(t);$('theme').onclick=function(){setT(r.getAttribute('data-theme')==='dark'?'light':'dark')};
+ /* Header */
+ var hd=$('hd');function sc(){hd.classList.toggle('scrolled',scrollY>30)}addEventListener('scroll',sc,{passive:true});sc();
+ $('burger').onclick=function(){var m=$('menu'),o=m.classList.toggle('d-none');m.classList.toggle('d-flex',!o);this.setAttribute('aria-expanded',!o)};
+ $('menu').onclick=function(e){if(e.target.tagName==='A'){this.classList.add('d-none');this.classList.remove('d-flex')}};
+ /* Reveal: se repite al subir y bajar */
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){e.target.classList.toggle('in',e.isIntersecting)})},{threshold:.15,rootMargin:'0px 0px -6% 0px'});
+ d.querySelectorAll('.rv').forEach(function(n){io.observe(n)});
+ /* Scrollspy */
+ var links=d.querySelectorAll('.nav-l[href^="#"]'),secs=[].map.call(links,function(a){return d.querySelector(a.getAttribute('href'))});
+ var sp=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)links.forEach(function(a){a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id)})})},{rootMargin:'-45% 0px -50% 0px'});
+ secs.forEach(function(s){s&&sp.observe(s)});
+ /* Slider propio */
+ var tr=$('track'),sl=[].slice.call(tr.children),dots=$('dots'),i=0,tm,sx=null;
+ sl.forEach(function(_,k){var b=d.createElement('button');b.className='dot';b.setAttribute('aria-label','Ir a diapositiva '+(k+1));b.onclick=function(){go(k,1)};dots.appendChild(b)});
+ function go(n,u){i=(n+sl.length)%sl.length;tr.style.transform='translateX(-'+i*100+'%)';
+  sl.forEach(function(s,k){s.classList.toggle('on',k===i);s.setAttribute('aria-hidden',k!==i)});
+  [].forEach.call(dots.children,function(b,k){b.classList.toggle('on',k===i)});if(u)play()}
+ function play(){clearInterval(tm);if(!matchMedia('(prefers-reduced-motion: reduce)').matches)tm=setInterval(function(){go(i+1)},6500)}
+ $('next').onclick=function(){go(i+1,1)};$('prev').onclick=function(){go(i-1,1)};
+ var box=$('sl');box.onmouseenter=function(){clearInterval(tm)};box.onmouseleave=play;
+ box.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+ box.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>50)go(i+(dx<0?1:-1),1);sx=null});
+ box.tabIndex=0;box.addEventListener('keydown',function(e){if(e.key==='ArrowRight')go(i+1,1);if(e.key==='ArrowLeft')go(i-1,1)});
+ go(0);play();$('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
